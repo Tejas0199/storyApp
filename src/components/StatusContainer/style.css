@@ -1,0 +1,39 @@
+.status-container {
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 20px;
+	padding: 20px;
+	width: 500px;
+	height: 600px;
+	margin: 50px auto 0 auto;
+}
+
+.no-story {
+	font-size: 25px;
+	color: rgba(128, 128, 128, 0.509);
+	text-align: center;
+}
+.img-container {
+	height: inherit;
+	width: initial;
+}
+.story {
+	width: 500px;
+	height: inherit;
+	
+}
+.progress {
+	height: 5px;
+	background-color: rgb(255, 0, 55);
+	animation: loading 10s linear infinite;
+}
+
+@keyframes loading {
+	from {
+		width : 500px;
+		color: blue;
+	}
+	to {
+		color : red;
+		width : 0px;
+	}
+}
